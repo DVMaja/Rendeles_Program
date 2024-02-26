@@ -13,11 +13,11 @@ import javax.swing.JCheckBox;
 import javax.swing.JRadioButton;
 import javax.swing.JSpinner;
 import javax.swing.JTextArea;
-import modell.Menu;
+import modell.Etterem;
 
 public class RendelesGui extends javax.swing.JFrame {
 
-    private Menu menu;
+    private Etterem menu;
 
     public RendelesGui() {
         initComponents();
@@ -496,7 +496,7 @@ public class RendelesGui extends javax.swing.JFrame {
     private void asztalValaszt(JRadioButton kivalasztottRB, JTextArea kivText) {
         if (kivalasztottRB.isSelected()) {
 
-            kivText.append("" + kivalasztottRB);
+            kivText.append("" + "Valami");
             //menu.
         }
     }

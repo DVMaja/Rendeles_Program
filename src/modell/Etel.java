@@ -17,4 +17,10 @@ public class Etel {
     public int getEtelAr() {
         return etelAr;
     }   
+
+    @Override
+    public String toString() {
+        return "Etel{" + "etelnev=" + etelnev + ", etelAr=" + etelAr + '}';
+    }
+    
 }

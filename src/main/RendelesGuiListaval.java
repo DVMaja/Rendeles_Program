@@ -12,14 +12,14 @@ import javax.swing.JCheckBox;
 import javax.swing.JRadioButton;
 import javax.swing.JSpinner;
 import javax.swing.JTextArea;
-import modell.Menu;
+import modell.Etterem;
 
 public class RendelesGuiListaval extends javax.swing.JFrame {
 
     private JTextArea[] textAreas;
     private String[] menuItems = {"Babgulyás", "Rántott sajt", "Gyümölcs leves", "Bécsi szelet", "Somlói galuska"};
 
-    private Menu menu;
+    private Etterem menu;
 
     public RendelesGuiListaval() {
         initComponents();
